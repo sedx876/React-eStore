@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
+import styled from 'styled-components';
 
 export default class Navbar extends Component {
   render() {
@@ -27,3 +28,6 @@ export default class Navbar extends Component {
     )
   }
 }
+
+
+const ButtonContainer = styled.button
